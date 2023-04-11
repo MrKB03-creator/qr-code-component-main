@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Outfit', sans-serif;
-    max-width: 1440px;
 }
 
 .container {
@@ -10,8 +9,6 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height:100%;
-    width: 100%;
 }
 
 .container-qr {
@@ -41,6 +38,7 @@
 }
 
 .attribution, .container { 
+    padding: 1rem;
     font-size: 15px; 
     text-align: center;
 }
